@@ -1,0 +1,72 @@
+.main {
+    padding-left: 10%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #24d88d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contentBox {
+    border-left: 4px solid #003049;
+    padding: 10px 30px;
+    animation: appearing 1s;
+}
+
+.main h1 {
+    font-size: 60px;
+    color: #eee;
+    margin: 0;
+}
+
+.main h1 span {
+    color: #003049;
+}
+
+.main h3 {
+    font-size: 30px;
+    color: #eee;
+}
+
+.main a {
+    display: inline-block;
+    color: #003049;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: .5px;
+    border: none;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 9px;
+    cursor: pointer;
+    background: #24d88d;
+    transition-duration: 3s;
+    box-shadow: inset 5px 5px 9px #20c27f, inset -5px -5px 9px #28ee9b;
+}
+
+.openApp {
+    background-color: red;
+    padding: 10px 27px !important;
+}
+
+.main a:hover {
+    display: inline-block;
+    border-radius: 9px;
+    background: #24d88d;
+    box-shadow:  5px 5px 9px #20c27f, -5px -5px 9px #28ee9b;
+    transition-duration: 3s;
+}
+
+@keyframes appearing {
+    0%{
+        margin-left: 50px;
+        opacity: 0;
+    }
+    100%{
+        margin-left: 0px;
+        opacity: 1;
+        border-left: 4px solid #003049;
+        padding: 10px 30px;
+    }
+}

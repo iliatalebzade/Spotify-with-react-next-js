@@ -1,0 +1,16 @@
+.main {
+    height: 100%;
+    width: 90%;
+}
+
+.mediaController{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mediaController img {
+    margin: 0 10px;
+    cursor: pointer;
+}

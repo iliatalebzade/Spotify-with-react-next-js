@@ -1,0 +1,167 @@
+*{
+    transition-duration: 300ms;
+}
+
+.main {
+    position: relative;
+    width: calc(100% / 7);
+    height: 260px;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 6px;
+    background: #363636;
+    box-shadow:  5px 5px 10px #292929,
+                -5px -5px 10px #434343;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.main:hover {
+    background-color: #0c995e;
+}
+
+.main:hover .cover {
+    box-shadow:  9px 9px 25px #0c6440,
+             -9px -9px 25px #12945e;
+}
+
+.main:hover span {
+    color: rgb(219, 219, 219);
+}
+
+.main p {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.main span {
+    color: #9c9c9c;
+}
+
+.main span:hover {
+    text-decoration: underline;
+}
+
+.main .cover {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    width: 100%;
+    box-shadow:  5px 5px 10px #292929,
+                -5px -5px 10px #434343;
+}
+
+.main .heart {
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    background: #363636;
+    box-shadow: inset 6px 6px 7px #2e2e2e,
+                inset -6px -6px 7px #3e3e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+}
+
+.main:hover .heart{
+    border-radius: 6px;
+    background: #0c995e;
+    box-shadow: inset 6px 6px 7px #0a8250,
+                inset -6px -6px 7px #0eb06c;
+}
+
+.main .heart img {
+    width: 100%;
+    height: 100%;
+}
+
+.innerContentDiv {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* *********************************************************************** */
+
+/* .mainActive */
+
+.mainActive {
+    position: relative;
+    width: calc(100% / 7);
+    height: 260px;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 6px;
+    background: #0fbd74;
+    box-shadow: 0 0 9px #0fbd74;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.mainActive:hover span {
+    color: rgb(219, 219, 219);
+}
+
+.mainActive p {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.mainActive span {
+    color: rgb(219, 219, 219);
+}
+
+.mainActive span:hover {
+    text-decoration: underline;
+}
+
+.mainActive .cover {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    width: 100%;
+    background: #0fbd74;
+    box-shadow: inset 3px 3px 6px #0da163,
+                inset -3px -3px 6px #11d985;
+}
+
+.mainActive .heart {
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    background: #0c995e;
+    box-shadow: inset 6px 6px 7px #0a8250,
+                inset -6px -6px 7px #0eb06c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+}
+
+.mainActive .heart{
+    border-radius: 6px;
+    background: #0fbd74;
+    box-shadow: inset 4px 4px 7px #0da163,
+                inset -4px -4px 7px #11d985;
+}
+
+.mainActive .heart img {
+    width: 100%;
+    height: 100%;
+}
+
+.innerContentDiv {
+    width: 100%;
+    height: 100%;
+}

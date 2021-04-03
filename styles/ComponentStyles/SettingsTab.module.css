@@ -1,0 +1,115 @@
+.settingsOverLayActive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.85);
+    z-index: 2;
+}
+
+.settingsOverLayDeactive {
+    display: none;
+}
+
+.InnerBox {
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 70%;
+    background: #363636;
+    z-index: 3;
+    border-radius: 6px;
+}
+
+.innerBoxDeactive {
+    display: none;
+}
+
+.InnerBox img {
+    width: 150px;
+    border-radius: 17px;
+    background: #363636;
+    box-shadow:  14px 14px 33px #2a2a2a,
+                -14px -14px 33px #424242;
+}
+
+.InnerBox .accountInfo {
+    padding: 30px 10px;
+}
+
+.accountInfo span {
+    color: #0e975e;
+}
+
+.accountInfo h4 {
+    font-size: 2em;
+    color: #0fbd74;
+    margin-bottom: 20px;
+}
+
+.accountInfo h5 {
+    display: inline-block;
+    font-size: 1.3em;
+    background-color: #0fbd74;
+    padding: 7px 10px;
+    border-radius: 6px;
+    color: #363636;
+    margin-bottom: 20px;
+    background: #0fbd74;
+    box-shadow: inset 4px 4px 8px #0d9f61,
+                inset -4px -4px 8px #11db87;
+}
+
+.accountInfo a {
+    display: inline-block;
+    letter-spacing: .5px;
+    padding: 10px 15px;
+    color: #0fbd74;
+    margin-right: 10px;
+    border-radius: 6px;
+    background: #363636;
+    box-shadow:  3px 3px 7px #2a2a2a,
+                -3px -3px 7px #424242;
+}
+
+.changeAvatarBtn {
+    cursor: pointer;
+    color: #0fbd74;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #363636;
+    border: none;
+    box-shadow:  3px 3px 7px #2a2a2a,
+                -3px -3px 7px #424242;
+}
+
+.changeAvatarBtn:hover {
+    background-color: #0fbd74;
+    color: #2a2a2a;
+}
+
+.logOutBtn {
+    margin: 20px 0;
+    letter-spacing: .8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #bd0f35;
+    border-radius: 6px;
+    background: #363636;
+    border: none;
+    box-shadow:  3px 3px 7px #2a2a2a,
+                -3px -3px 7px #424242;
+}
+
+.logOutBtn:hover {
+    background-color: #c02446;
+    color: #2a2a2a;
+}
+
+.activeSettingOptions {
+
+}

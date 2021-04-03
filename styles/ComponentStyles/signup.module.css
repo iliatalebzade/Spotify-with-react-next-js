@@ -1,0 +1,97 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: #001f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formBox {
+    display: flex;
+    height: 450px;
+    padding: 20px;
+    border-radius: 11px;
+    background: #001f3f;
+    box-shadow:  17px 17px 34px #001428,
+                -17px -17px 34px #002a56;
+}
+
+.formBox img {
+    height: 100%;
+    border-radius: 4px;
+    box-shadow:  5px 5px 10px #001830,
+                -5px -5px 10px #00264e;
+}
+
+.formBox p {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.formBox p a {
+    margin: 0 5px;
+    color: #29f8a2;
+}
+
+.formBox p a:hover {
+    color: #1fb878;
+    text-decoration: underline;
+}
+
+.formBox h1 {
+    font-size: 40px;
+    color: #24d88d;
+    margin: 0 10px;
+}
+
+.Div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin-right: 100px;
+}
+
+.titleDiv{
+    width: 100%;
+    height: 25%;
+}
+
+.formDiv {
+    width: 100%;
+    height: 75%;
+}
+
+.formBox form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formBox form input {
+    margin: 10px;
+    padding: 3px 15px;
+    border: none;
+    background-color: #24d88d;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #1a1a1a;
+    border-radius: 4px;
+    background: #24d88d;
+    display: inline-block;
+    box-shadow: inset 4px 4px 8px #1fb878,
+                inset -4px -4px 8px #29f8a2;
+}
+
+.formBox form input[type=submit] {
+    width: 35%;
+    cursor: pointer;
+}
+
+.formBox form input::placeholder {
+    color: #1a1a1a;
+}

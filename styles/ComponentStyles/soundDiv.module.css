@@ -1,0 +1,40 @@
+.main {
+    height: 100%;
+    width: 90%;
+}
+
+.soundIcon{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.soundBarContainer {
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+.soundIconDiv img {
+    width: 75%;
+    cursor: pointer;
+}
+
+.soundIconDiv {
+    width: 25%;
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soundSliderContainer {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 80%;
+    padding: 0px 10px;
+}
