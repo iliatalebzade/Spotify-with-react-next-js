@@ -6,7 +6,7 @@ import styles from '../../styles/ComponentStyles/HomeTemplate.module.css'
 
 const HomeTemplate = (props) => {
     return (
-        <div className={styles.main}>
+        <div className={styles.HomeTemplateMain}>
             <div className={styles.nav}>
                 <Nav />
             </div>

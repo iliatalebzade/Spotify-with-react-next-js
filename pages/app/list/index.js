@@ -10,18 +10,18 @@ import SettingsPage from '../../../Components/appComponents/SettingsPage';
 
 const Index = () => {
     return (
-        <div className={styles.main}>
+        <div className={styles.ListTemplateMain}>
             <Provider store={store}>
-            <div className={styles.main}>
-                <div className={styles.nav}>
-                    <Nav />
+                <div className={styles.ListTemplateMain}>
+                    <div className={styles.nav}>
+                        <Nav />
+                    </div>
+                    <div className={styles.ContentAndPlayer}>
+                        <ListContentPage />
+                    </div>
+                    <SettingsPage />
                 </div>
-                <div className={styles.ContentAndPlayer}>
-                    <ListContentPage />
-                </div>
-                <SettingsPage />
-            </div>
-        </Provider>
+            </Provider>
         </div>
     )
 }

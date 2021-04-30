@@ -11,7 +11,7 @@ const ListContentPage = () => {
     const state = useSelector(state => state)
 
     return (
-        <div className={styles.main}>
+        <div className={styles.ListContentPageMain}>
             <div className={styles.contentMain}>
                 {state.Songsreducer.songs.map((item, index)=>{
                     return(

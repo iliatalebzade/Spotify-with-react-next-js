@@ -5,7 +5,7 @@ import styles from '../styles/ComponentStyles/EnreringPagePresentor.module.css'
 
 const EnreringPagePresentor = () => {
     return (
-        <div className={styles.main}>
+        <div className={styles.EnreringPagePresentorMain}>
            <div className={styles.contentBox}>
             <div>
                 <h1>Welcome to <span>Spotify</span></h1> 

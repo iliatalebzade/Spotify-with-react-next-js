@@ -9,7 +9,7 @@ const NamesDiv = () => {
     const state = useSelector(state => state)
 
     return (
-        <div className={styles.main}>
+        <div className={styles.namesDivMain}>
             <h4>{state.Songsreducer.selectedSong.songName}</h4>
             <h4>{state.Songsreducer.selectedSong.artist}</h4>
         </div>

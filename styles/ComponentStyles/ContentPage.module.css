@@ -1,4 +1,4 @@
-.main {
+.ContentPageMain {
     position: relative;
     padding: 10px;
     width: 100%;
@@ -45,7 +45,7 @@
     background: #555; 
 }
 
-.main h1 {
+.ContentPageMain h1 {
     cursor: pointer;
     background-color: #0c995e;
     margin-bottom: 0;

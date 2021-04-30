@@ -1,4 +1,4 @@
-.main {
+.SearchContentPageMain {
     position: relative;
     padding: 10px;
     width: 100%;
@@ -41,7 +41,7 @@
     background: #555; 
 }
 
-.main h1 {
+.SearchContentPageMain h1 {
     display: inline-block;
     cursor: pointer;
     background-color: #0c995e;

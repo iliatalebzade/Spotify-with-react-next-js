@@ -14,7 +14,7 @@ const HomeContentPage = () => {
     
 
     return (
-        <div className={styles.main}>
+        <div className={styles.ContentPageMain}>
             <div className={styles.contentMain}>
                 {state.Songsreducer.songs.map((item, index)=> (
                     <Card

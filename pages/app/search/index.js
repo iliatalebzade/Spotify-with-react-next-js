@@ -1,7 +1,5 @@
 import React from 'react'
 import Nav from '../../../Components/appComponents/Nav';
-import HomeContentPage from '../../../Components/appComponents/HomeContentPage'
-import LikedContentPage from '../../../Components/appComponents/LikedContentPage'
 
 import styles from '../../../styles/ComponentStyles/LikedTemplate.module.css'
 import { Provider } from 'react-redux';
@@ -12,7 +10,7 @@ import SettingsPage from '../../../Components/appComponents/SettingsPage';
 const index = () => {
     return (
         <Provider store={store}>
-            <div className={styles.main}>
+            <div className={styles.LikedTemplateMain}>
                 <div className={styles.nav}>
                     <Nav />
                 </div>

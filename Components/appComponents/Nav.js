@@ -15,12 +15,13 @@ const Nav = () => {
     const dispatch = useDispatch()
 
     //Runs only once at the launch of application to give song items they're own index value
+    //I've added this method here since it's one of the only components that are used on every route and situation
     useEffect( () => {
         dispatch(indexGiver());
     }, [])
 
     return (
-        <div className={styles.main}>
+        <div className={styles.navMain}>
             <OpenSettingsBtn />
 
             <ul>

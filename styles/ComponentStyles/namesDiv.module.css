@@ -1,4 +1,4 @@
-.main {
+.namesDivMain {
     width: 100%;
     height: 100%;
     color: #eee;
@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-.main h4 {
+.namesDivMain h4 {
     cursor: pointer;
     display: inline-block;
     color: #eee;
@@ -14,7 +14,7 @@
     text-transform: capitalize;
 }
 
-.main h4:hover{
+.namesDivMain h4:hover{
     text-decoration: underline;
 }
 

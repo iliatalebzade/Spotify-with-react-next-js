@@ -1,4 +1,4 @@
-.main {
+.loginMain {
     width: 100vw;
     height: 100vh;
     background: #001f3f;
@@ -9,6 +9,7 @@
 }
 
 .formBox {
+    margin-bottom: 15px;
     display: flex;
     height: 450px;
     padding: 20px;
@@ -67,6 +68,7 @@
 
 .formBox form{
     display: flex;
+    margin-bottom: 15px;
     justify-content: center;
     flex-direction: column;
 }

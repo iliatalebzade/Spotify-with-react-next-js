@@ -12,7 +12,7 @@ const LikedContentPage = () => {
     const state = useSelector(state => state)
 
     return (
-        <div className={styles.main}>
+        <div className={styles.ContentPageMain}>
             <div className={styles.contentMain}>
                 {state.Songsreducer.songs.map((item, index)=>{
                     if(item.is_liked){

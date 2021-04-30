@@ -9,7 +9,7 @@ const Card = (props) => {
     const dispatch = useDispatch()
 
     return (
-        <div className={props.is_active ? styles.mainActive : styles.main}>
+        <div className={props.is_active ? styles.CardmainActive : styles.Cardmain}>
             <div onClick={()=> dispatch(songSelector(props.wholeItem, props.index))} className={styles.innerContentDiv}>
                 <img className={styles.cover} src={props.img}/>
                 <p>{props.songName}</p>

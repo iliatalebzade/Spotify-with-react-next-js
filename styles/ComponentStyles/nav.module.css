@@ -1,4 +1,4 @@
-.main {
+.navMain {
     position: relative;
     padding: 10px;
     width: 100%;
@@ -9,19 +9,19 @@
                 -5px -5px 10px #434343;
 }
 
-.main ul li {
+.navMain ul li {
     list-style: none;
     margin: 10px 0;
     font-size: 20px;
 }
 
-.main ul li a {
+.navMain ul li a {
     color: #ddd;
     position: relative;
     z-index: 1;
 }
 
-.main ul li a img{
+.navMain ul li a img{
     width: 15px;
     margin-right: 10px;
 }

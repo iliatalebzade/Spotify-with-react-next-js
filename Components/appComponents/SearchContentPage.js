@@ -31,7 +31,7 @@ const SearchContentPage = () => {
     }
 
     return (
-        <div className={styles.main}>
+        <div className={styles.SearchContentPageMain}>
             <div className={styles.contentMain}>
                 <h1>Search song</h1>
                 <form onSubmit={submitHandler}>

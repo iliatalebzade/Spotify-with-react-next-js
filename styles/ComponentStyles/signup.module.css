@@ -1,4 +1,4 @@
-.main {
+.signupMain {
     width: 100vw;
     height: 100vh;
     background: #001f3f;
@@ -67,6 +67,7 @@
 
 .formBox form{
     display: flex;
+    margin-bottom: 15px;
     justify-content: center;
     flex-direction: column;
 }

@@ -10,7 +10,7 @@ const Player = ({ pauseSong, playSong, seekbarVal, seekbarChanger, skipBack, ski
     const dispatch = useDispatch()
 
     return (
-        <div className={styles.main}>
+        <div className={styles.playerMain}>
             <div className={styles.mediaController}>
                 <img
                     src="../back.png" 

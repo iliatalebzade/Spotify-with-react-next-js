@@ -1,4 +1,4 @@
-.main {
+.EnreringPagePresentorMain {
     padding-left: 10%;
     width: 100vw;
     height: 100vh;
@@ -14,22 +14,22 @@
     animation: appearing 1s;
 }
 
-.main h1 {
+.EnreringPagePresentorMain h1 {
     font-size: 60px;
     color: #eee;
     margin: 0;
 }
 
-.main h1 span {
+.EnreringPagePresentorMain h1 span {
     color: #003049;
 }
 
-.main h3 {
+.EnreringPagePresentorMain h3 {
     font-size: 30px;
     color: #eee;
 }
 
-.main a {
+.EnreringPagePresentorMain a {
     display: inline-block;
     color: #003049;
     font-family: sans-serif;
@@ -50,7 +50,7 @@
     padding: 10px 27px !important;
 }
 
-.main a:hover {
+.EnreringPagePresentorMain a:hover {
     display: inline-block;
     border-radius: 9px;
     background: #24d88d;

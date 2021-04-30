@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { Provider } from 'react-redux';
 import EnreringPagePresentor from '../Components/EnreringPagePresentor';
-import styles from '../styles/Home.module.css'
 import store from '../Redux/store'
 
 class Index extends Component {

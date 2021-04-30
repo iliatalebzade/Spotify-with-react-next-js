@@ -45,7 +45,7 @@ const Login = () => {
     }
 
     return (
-        <div className={styles.main}>
+        <div className={styles.loginMain}>
             <div className={styles.formBox}>
                 <div className={styles.Div}>
                     <div className={styles.titleDiv}>

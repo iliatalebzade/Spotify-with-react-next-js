@@ -10,7 +10,7 @@ import SettingsPage from '../../../Components/appComponents/SettingsPage';
 const HomeTemplate = () => {
     return (
         <Provider store={store}>
-            <div className={styles.main}>
+            <div className={styles.HomeTemplateMain}>
                 <div className={styles.nav}>
                     <Nav />
                 </div>

@@ -9,7 +9,7 @@ const ActiveMusicCover = () => {
     const state = useSelector(state => state)
 
     return (
-        <div className={styles.main}>
+        <div className={styles.activeMusicCovermain}>
             <img src={state.Songsreducer.selectedSong.coverSrc} alt=""/>
         </div>
     )

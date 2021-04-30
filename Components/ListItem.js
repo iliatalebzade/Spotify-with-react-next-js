@@ -9,7 +9,7 @@ const ListItem = (props) => {
     const dispatch = useDispatch()
 
     return (
-        <div className={props.is_active ? styles.Activemain : styles.main}>
+        <div className={props.is_active ? styles.ListItemActivemain : styles.ListItemMain}>
             <div onClick={()=> dispatch(songSelector(props.wholeItem, props.index))} >
                 <ul>
                     <li><span>Name: </span>{props.songName}</li>

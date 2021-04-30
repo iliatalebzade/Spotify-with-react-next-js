@@ -93,7 +93,7 @@ const MediaPlayer = () => {
     }
 
     return (
-        <div className={styles.main}>
+        <div className={styles.mediaPlayerMain}>
             {state.Songsreducer.selectedSong.songName === "Song" &&
                 <div className={state.Songsreducer.selectedSong.songName === "Song" ? styles.unactiveOverlay : ''}></div>
             }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { useRouter } from 'next/router'
 
 import { createUser } from '../../Redux/Account/action'
@@ -39,8 +39,6 @@ const SignUp = () => {
         })
     }
 
-    const state = useSelector(state => state)
-
     const submitHandler = (e) => {
         e.preventDefault();
         if(content.password === content.confirmPassword && content.confirmPassword !== '' && content.password !== '' && content.userName !== '') {
@@ -54,7 +52,7 @@ const SignUp = () => {
     }
 
     return (
-        <div className={styles.main}>
+        <div className={styles.signupMain}>
             <div className={styles.formBox}>
                 <div className={styles.Div}>
                     <div className={styles.titleDiv}>
